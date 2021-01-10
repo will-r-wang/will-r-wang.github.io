@@ -1,0 +1,20 @@
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 1em;
+
+  visibility: hidden;
+}
+
+body.dark {
+  background-color: #fff;
+  color: #222;
+}
+
+body.light {
+  background-color: #222;
+  color: #fff;
+}
+
+body.light a {
+  color: #fe0;
+}
